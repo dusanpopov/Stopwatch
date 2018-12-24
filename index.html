@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Stopwatch</title>
+</head>
+
+<body>
+
+
+    <div class="timer">
+
+        <div class="timer__controls">
+
+            <button data-time="20" class="timer__button">20 seconds</button>
+            <button data-time="300" class="timer__button">5 minutes</button>
+            <button data-time="600" class="timer__button">10 minutes</button>
+            <button data-time="1800" class="timer__button">30 minutes</button>
+            <button data-time="3600" class="timer__button">60 minutes</button>
+
+        </div>
+
+        <form name="minutesInputForm">
+
+            <input type="number" name="minutes" placeholder="Enter minutes" min="1" oninput="this.value = Math.abs(this.value)" class="form__minutes--input">
+
+        </form>
+
+        
+
+        <div class="display">
+
+            <h1 class="display__time-left"></h1>
+            <p class="display__end-time"></p>
+
+        </div>
+
+    </div>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

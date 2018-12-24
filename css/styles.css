@@ -1,0 +1,74 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    font-size: 62.5%;
+    font-family: 'Fira Mono', monospace;
+    background-color: #dddfd4;
+}
+
+.timer__controls {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timer__button {
+
+    width: 15rem;
+    padding: 1.2rem;
+    font-size: 2rem;
+    margin: 1.5rem;
+    cursor: pointer;
+    background-color: #3fb0ac;
+    color: #173e43;
+    outline: none;
+    border: none;
+    border-radius: 2rem;
+    text-transform: uppercase;
+}
+
+.timer__button:hover {
+
+    background-color: #00b894;
+    color: #f5f6fa;
+    transition: all .4s ease;
+}
+
+form {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    font-size: 5rem;
+}
+
+
+.form__minutes--input {
+
+    outline: none;
+    background-color: #ecf0f1;
+    border: none;
+    color: #2c3e50;
+}
+
+.display {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18rem;
+    font-size: 15rem;
+    color: #173e43;
+  }
+
+  
+
+.display__end-time {
+
+    font-size: 3rem;
+    margin-top: 2rem;
+}
