@@ -4,11 +4,12 @@
     margin: 0;
     font-size: 62.5%;
     font-family: 'Fira Mono', monospace;
-    background-color: #dddfd4;
+    background-color: #0375b4;
+    box-sizing: border-box;
 }
 
 .timer__controls {
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,8 +22,8 @@
     font-size: 2rem;
     margin: 1.5rem;
     cursor: pointer;
-    background-color: #3fb0ac;
-    color: #173e43;
+    background-color: #ffce00;
+    color: #262228;
     outline: none;
     border: none;
     border-radius: 2rem;
@@ -31,8 +32,7 @@
 
 .timer__button:hover {
 
-    background-color: #00b894;
-    color: #f5f6fa;
+    color: #007849;
     transition: all .4s ease;
 }
 
@@ -52,6 +52,8 @@ form {
     background-color: #ecf0f1;
     border: none;
     color: #2c3e50;
+    padding: 2rem;
+    border-radius: 2rem;
 }
 
 .display {
@@ -60,12 +62,12 @@ form {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 18rem;
-    font-size: 15rem;
-    color: #173e43;
-  }
+    margin-top: 12rem;
+    font-size: 22rem;
+    color: white;
+}
 
-  
+
 
 .display__end-time {
 
