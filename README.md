@@ -1,3 +1,3 @@
 # Stopwatch
 
-Simple stopwatch made with vanilla JavaScript. User can use predefined countdown timers, or enter his own timer values.
+Simple stopwatch made with vanilla JavaScript. User can use predefined countdown timers, or enter his own time values.
