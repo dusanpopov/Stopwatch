@@ -4,7 +4,7 @@
     margin: 0;
     font-size: 62.5%;
     font-family: 'Fira Mono', monospace;
-    background-color: #0375b4;
+    background-color: #4a69bd;
     box-sizing: border-box;
 }
 
@@ -18,12 +18,13 @@
 .timer__button {
 
     width: 15rem;
+    height: 7rem;
     padding: 1.2rem;
     font-size: 2rem;
     margin: 1.5rem;
     cursor: pointer;
-    background-color: #ffce00;
-    color: #262228;
+    background-color: #f76747;
+    color: white;
     outline: none;
     border: none;
     border-radius: 2rem;
@@ -32,7 +33,7 @@
 
 .timer__button:hover {
 
-    color: #007849;
+    color: #130f40;
     transition: all .4s ease;
 }
 
@@ -66,7 +67,6 @@ form {
     font-size: 22rem;
     color: white;
 }
-
 
 
 .display__end-time {
