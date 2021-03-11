@@ -29,20 +29,17 @@
 }
 
 .timer__button:hover {
-
     color: #130f40;
     transition: all .4s ease;
 }
 
 form {
-
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 6rem;
     font-size: 5rem;
 }
-
 
 .form__minutes--input {
     outline: none;
